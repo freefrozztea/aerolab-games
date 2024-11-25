@@ -1,0 +1,31 @@
+.searchContainer {
+    position: relative;
+    width: 300px;
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 10px 40px;
+    border: 2px solid pink;
+    border-radius: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 5px pink;
+  }
+  
+  .searchInput::placeholder {
+    color: pink;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    color: pink;
+  }
+  
